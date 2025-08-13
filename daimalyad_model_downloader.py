@@ -249,10 +249,15 @@ class DaimalyadModelDownloader:
       - path: absolute path to the downloaded (or existing) file
     """
 
+    OUTPUT_NODE = True
     CATEGORY = "utils"
     FUNCTION = "download"
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("path",)
+
+    @classmethod
+    def IS_CHANGED(cls, **kwargs):
+        return True  # always run when queued
 
     @classmethod
     def INPUT_TYPES(cls):
