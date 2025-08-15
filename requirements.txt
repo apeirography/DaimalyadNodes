@@ -1,0 +1,5 @@
+# DaimalyadNodes - ComfyUI Custom Nodes Package
+# Dependencies for model downloading and wildcard processing
+
+# Core dependencies (usually included with ComfyUI)
+# No external packages required - uses only Python standard library

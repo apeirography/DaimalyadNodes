@@ -1,0 +1,19 @@
+[project]
+name = "daimalyadnodes"
+version = "0.1.0"
+description = "Model Downloader + API-Friendly Wildcard Processor for ComfyUI"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Daïm Al-Yad", email = "@daimalyad" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/daimalyad/DaimalyadNodes"
+Homepage = "https://github.com/daimalyad/DaimalyadNodes"
+
+[tool.comfy]
+PublisherId = "daimalyad"
+DisplayName = "DaimalyadNodes"

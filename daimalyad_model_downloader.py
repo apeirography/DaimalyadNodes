@@ -2,7 +2,7 @@
 # -----------------------------------------------------------------------------
 # Model Downloader by DaimAlYad
 # a ComfyUI Utility Node for Workflow-Based Model Downloading
-# Class/Key: DaimalyadModelDownloader
+# Class/Key: DaimalyadNodes
 # Category: utils
 #
 # Copyright © 2025 Daïm Al-Yad (@daimalyad)
@@ -341,12 +341,4 @@ class DaimalyadModelDownloader:
 
         return (str(target_path),)
 
-# ---- Registration ------------------------------------------------------------
-
-NODE_CLASS_MAPPINGS = {
-    "DaimalyadModelDownloader": DaimalyadModelDownloader,
-}
-
-NODE_DISPLAY_NAME_MAPPINGS = {
-    "DaimalyadModelDownloader": "Model Downloader by DaimAlYad",
-}
+# ---- Node Implementation Complete --------------------------------------------
